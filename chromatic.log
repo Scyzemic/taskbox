@@ -1,0 +1,115 @@
+
+Chromatic CLI v7.6.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************9e01'
+Retrieving git information
+Retrieved git information
+    → Commit '41d9020' on branch 'main'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.3 for React; using the @storybook/react-vite builder (7.5.3); supported addons found: Links, Essentials, Interactions, A11y
+Initializing build
+Initialized build
+    → Build 2 initialized
+Building your Storybook
+    → Running command: yarn run build-storybook --output-dir /var/folders/08/tg_m_q2n25358t103mcc7qn00000gn/T/chromatic--41930-GeEwdjhVMD7W
+Storybook built in 10 seconds
+    → View build log at /Users/gabe/code/storybook/taskbox/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [=                   ] 5%
+    → [=                   ] 7%
+    → [==                  ] 9%
+    → [==                  ] 12%
+    → [===                 ] 14%
+    → [===                 ] 16%
+    → [===                 ] 17%
+    → [====                ] 22%
+    → [=====               ] 24%
+    → [=====               ] 27%
+    → [======              ] 29%
+    → [======              ] 30%
+    → [======              ] 32%
+    → [=======             ] 34%
+    → [=======             ] 36%
+    → [========            ] 41%
+    → [=========           ] 43%
+    → [=========           ] 44%
+    → [=========           ] 45%
+    → [=========           ] 47%
+    → [==========          ] 48%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 54%
+    → [===========         ] 56%
+    → [============        ] 58%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 66%
+    → [==============      ] 68%
+    → [==============      ] 69%
+    → [==============      ] 70%
+    → [==============      ] 71%
+    → [==============      ] 72%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 75%
+    → [===============     ] 76%
+    → [===============     ] 77%
+    → [================    ] 78%
+    → [================    ] 79%
+    → [================    ] 80%
+    → [================    ] 81%
+    → [================    ] 82%
+    → [=================   ] 83%
+    → [=================   ] 85%
+    → [=================   ] 86%
+    → [=================   ] 87%
+    → [==================  ] 88%
+    → [==================  ] 90%
+    → [==================  ] 91%
+    → [=================== ] 94%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+    → [====================] 100%
+Publish complete in 11 seconds
+    → View your Storybook at https://654aa5a284b0540f72b700b7-onsgvpqpeq.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 2
+    → View build details at https://www.chromatic.com/build?appId=654aa5a284b0540f72b700b7&number=2
+Running 9 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [==                  ] 1/9  InboxScreen › Default 
+    → [=======             ] 3/9  Task › Default 
+    → [===========         ] 5/9  Task › Archived 
+    → [=============       ] 6/9  TaskList › Default 
+    → [================    ] 7/9  TaskList › With Pinned Tasks 
+    → [==================  ] 8/9  TaskList › Loading 
+    → [====================] 9/9  TaskList › Empty 
+✖ Found 9 visual changes: Review the changes at https://www.chromatic.com/build?appId=654aa5a284b0540f72b700b7&number=2
+
+ℹ For CI/CD use cases, this command failed with exit code 1
+Pass --exit-zero-on-changes to succeed this command regardless of changes.
+Pass --auto-accept-changes to succeed and automatically accept any changes.
+Build 2 completed
+    → Tested 9 stories across 3 components; captured 9 snapshots in 39 seconds
+
+
